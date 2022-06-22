@@ -5,8 +5,8 @@ authors = ["Parity Technologies <admin@parity.io>"]
 edition = "2021"
 
 [dependencies]
-sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-application-crypto = { package = "sp-application-crypto", git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "master" }
+sp-keyring = { git = "https://github.com/koute/substrate", branch = "master_check_if_madvise_works" }
+sp-application-crypto = { package = "sp-application-crypto", git = "https://github.com/koute/substrate", default-features = false , branch = "master_check_if_madvise_works" }
+sp-runtime = { git = "https://github.com/koute/substrate", branch = "master_check_if_madvise_works" }
 polkadot-primitives = { path = "../" }
 rand = "0.8.5"

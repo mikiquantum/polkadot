@@ -22,14 +22,14 @@ serde = { version = "1.0", optional = true, features = ["derive"] }
 
 # Substrate Based Dependencies
 
-frame-support = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-frame-system = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-sp-api = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-sp-io = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-sp-std = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-sp-trie = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
+frame-support = { git = "https://github.com/koute/substrate", default-features = false , branch = "master_check_if_madvise_works" }
+frame-system = { git = "https://github.com/koute/substrate", default-features = false , branch = "master_check_if_madvise_works" }
+sp-api = { git = "https://github.com/koute/substrate", default-features = false , branch = "master_check_if_madvise_works" }
+sp-core = { git = "https://github.com/koute/substrate", default-features = false , branch = "master_check_if_madvise_works" }
+sp-io = { git = "https://github.com/koute/substrate", default-features = false , branch = "master_check_if_madvise_works" }
+sp-runtime = { git = "https://github.com/koute/substrate", default-features = false , branch = "master_check_if_madvise_works" }
+sp-std = { git = "https://github.com/koute/substrate", default-features = false , branch = "master_check_if_madvise_works" }
+sp-trie = { git = "https://github.com/koute/substrate", default-features = false , branch = "master_check_if_madvise_works" }
 
 [features]
 default = ["std"]

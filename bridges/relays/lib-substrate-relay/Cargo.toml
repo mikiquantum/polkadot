@@ -34,19 +34,19 @@ bp-messages = { path = "../../primitives/messages" }
 
 # Substrate Dependencies
 
-frame-support = { git = "https://github.com/paritytech/substrate", branch = "master" }
-frame-system = { git = "https://github.com/paritytech/substrate", branch = "master" }
-pallet-balances = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-finality-grandpa = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "master" }
+frame-support = { git = "https://github.com/koute/substrate", branch = "master_check_if_madvise_works" }
+frame-system = { git = "https://github.com/koute/substrate", branch = "master_check_if_madvise_works" }
+pallet-balances = { git = "https://github.com/koute/substrate", branch = "master_check_if_madvise_works" }
+sp-core = { git = "https://github.com/koute/substrate", branch = "master_check_if_madvise_works" }
+sp-finality-grandpa = { git = "https://github.com/koute/substrate", branch = "master_check_if_madvise_works" }
+sp-runtime = { git = "https://github.com/koute/substrate", branch = "master_check_if_madvise_works" }
 
 [dev-dependencies]
 bp-millau = { path = "../../primitives/chain-millau" }
 bp-rialto = { path = "../../primitives/chain-rialto" }
 bp-rococo = { path = "../../primitives/chain-rococo" }
 bp-wococo = { path = "../../primitives/chain-wococo" }
-pallet-transaction-payment = { git = "https://github.com/paritytech/substrate", branch = "master" }
+pallet-transaction-payment = { git = "https://github.com/koute/substrate", branch = "master_check_if_madvise_works" }
 relay-rococo-client = { path = "../client-rococo" }
 relay-wococo-client = { path = "../client-wococo" }
 rialto-runtime = { path = "../../bin/rialto/runtime" }

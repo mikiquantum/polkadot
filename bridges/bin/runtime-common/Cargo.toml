@@ -25,17 +25,17 @@ pallet-bridge-messages = { path = "../../modules/messages", default-features = f
 
 # Substrate dependencies
 
-frame-support = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-frame-system = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-pallet-balances = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false, optional = true }
-pallet-transaction-payment = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-sp-api = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-sp-state-machine = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false, optional = true }
-sp-std = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-sp-trie = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-sp-version = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false, optional = true }
+frame-support = { git = "https://github.com/koute/substrate", default-features = false , branch = "master_check_if_madvise_works" }
+frame-system = { git = "https://github.com/koute/substrate", default-features = false , branch = "master_check_if_madvise_works" }
+pallet-balances = { git = "https://github.com/koute/substrate", default-features = false, optional = true , branch = "master_check_if_madvise_works" }
+pallet-transaction-payment = { git = "https://github.com/koute/substrate", default-features = false , branch = "master_check_if_madvise_works" }
+sp-api = { git = "https://github.com/koute/substrate", default-features = false , branch = "master_check_if_madvise_works" }
+sp-core = { git = "https://github.com/koute/substrate", default-features = false , branch = "master_check_if_madvise_works" }
+sp-runtime = { git = "https://github.com/koute/substrate", default-features = false , branch = "master_check_if_madvise_works" }
+sp-state-machine = { git = "https://github.com/koute/substrate", default-features = false, optional = true , branch = "master_check_if_madvise_works" }
+sp-std = { git = "https://github.com/koute/substrate", default-features = false , branch = "master_check_if_madvise_works" }
+sp-trie = { git = "https://github.com/koute/substrate", default-features = false , branch = "master_check_if_madvise_works" }
+sp-version = { git = "https://github.com/koute/substrate", default-features = false, optional = true , branch = "master_check_if_madvise_works" }
 
 [features]
 default = ["std"]

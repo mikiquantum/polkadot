@@ -12,15 +12,15 @@ scale-info = { version = "2.0.1", default-features = false, features = ["derive"
 
 # Substrate Dependencies
 
-frame-support = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-frame-system = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-pallet-session = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-sp-staking = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-sp-std = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
+frame-support = { git = "https://github.com/koute/substrate", default-features = false , branch = "master_check_if_madvise_works" }
+frame-system = { git = "https://github.com/koute/substrate", default-features = false , branch = "master_check_if_madvise_works" }
+pallet-session = { git = "https://github.com/koute/substrate", default-features = false , branch = "master_check_if_madvise_works" }
+sp-staking = { git = "https://github.com/koute/substrate", default-features = false , branch = "master_check_if_madvise_works" }
+sp-std = { git = "https://github.com/koute/substrate", default-features = false , branch = "master_check_if_madvise_works" }
 
 [dev-dependencies]
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "master" }
+sp-core = { git = "https://github.com/koute/substrate", branch = "master_check_if_madvise_works" }
+sp-runtime = { git = "https://github.com/koute/substrate", branch = "master_check_if_madvise_works" }
 
 [features]
 default = ["std"]

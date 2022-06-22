@@ -24,6 +24,6 @@ pallet-bridge-dispatch = { path = "../../modules/dispatch" }
 pallet-bridge-messages = { path = "../../modules/messages" }
 
 # Substrate Dependencies
-frame-support = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "master" }
+frame-support = { git = "https://github.com/koute/substrate", branch = "master_check_if_madvise_works" }
+sp-core = { git = "https://github.com/koute/substrate", branch = "master_check_if_madvise_works" }
+sp-runtime = { git = "https://github.com/koute/substrate", branch = "master_check_if_madvise_works" }
